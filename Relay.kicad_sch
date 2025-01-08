@@ -1,0 +1,154 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fb9e56e6-0b17-444e-8d96-874dac65df35")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CLED"
+		(shape input)
+		(at 73.66 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5018fdb-e318-4f1d-bc68-b4ac90814992")
+	)
+	(sheet
+		(at 79.756 76.708)
+		(size 27.686 21.336)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00ddab29-6b49-4458-bc09-3788d5afb19d")
+		(property "Sheetname" "Chamber_LED"
+			(at 79.756 75.9964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 79.756 98.6286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SISTER_B1_V1"
+				(path "/843f51b1-3560-42fa-861e-ed724a3306d8/fec18bed-e916-43eb-892e-7cee8cabe6a8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.454 44.704)
+		(size 29.972 20.066)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "018247b1-ad1c-4460-9119-ec23dffb650a")
+		(property "Sheetname" "Seconday_relaysehet"
+			(at 76.454 43.9924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Secondary_relay.kicad_sch"
+			(at 76.454 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Cled" input
+			(at 76.454 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7361c919-1b99-462a-823b-a3f8f97b723b")
+		)
+		(instances
+			(project "SISTER_B1_V1"
+				(path "/843f51b1-3560-42fa-861e-ed724a3306d8/fec18bed-e916-43eb-892e-7cee8cabe6a8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 44.45)
+		(size 29.972 20.066)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c78362c3-d274-4ee7-9a2a-88eead416196")
+		(property "Sheetname" "Seconday_relaysehet1"
+			(at 134.62 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Secondary_relay.kicad_sch"
+			(at 134.62 65.1006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "M_FAN" input
+			(at 134.62 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "54f2045c-446f-47bc-880e-556877f45bf4")
+		)
+		(instances
+			(project "SISTER_B1_V1"
+				(path "/843f51b1-3560-42fa-861e-ed724a3306d8/fec18bed-e916-43eb-892e-7cee8cabe6a8"
+					(page "4")
+				)
+			)
+		)
+	)
+)
